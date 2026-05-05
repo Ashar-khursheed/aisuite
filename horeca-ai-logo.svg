@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Horeca AI — Brand Mark
+  AI version of the Horeca Store dome+plate icon.
+  Use on dark or light backgrounds. Square aspect ratio.
+
+  License: © Horeca Store. All rights reserved.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512" role="img" aria-label="Horeca AI">
+  <defs>
+    <linearGradient id="domeGrad" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%"   stop-color="#FFB155"/>
+      <stop offset="45%"  stop-color="#FF6F8B"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+    <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#D946EF"/>
+      <stop offset="55%"  stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="knobGrad" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFE6B0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="46" y="6" width="8" height="9" rx="1.5" fill="url(#knobGrad)"/>
+
+  <path d="M16 50 C16 30, 32 14, 50 14 C68 14, 84 30, 84 50 L88 50 L88 56 L12 56 L12 50 Z"
+        fill="url(#domeGrad)"/>
+
+  <path d="M12 60 L88 60 L88 64 C88 78, 76 90, 60 92 L60 80 C68 78, 74 70, 74 62 L26 62 C26 70, 32 78, 40 80 L40 92 C24 90, 12 78, 12 64 Z"
+        fill="url(#plateGrad)"/>
+</svg>

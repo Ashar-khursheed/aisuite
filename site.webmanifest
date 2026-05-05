@@ -1,0 +1,23 @@
+{
+  "name": "Horeca AI",
+  "short_name": "Horeca AI",
+  "description": "Agentic AI for restaurants, hotels and cafés. Built by Horeca Store.",
+  "start_url": "/ai",
+  "scope": "/ai",
+  "display": "standalone",
+  "background_color": "#07070C",
+  "theme_color": "#07070C",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
